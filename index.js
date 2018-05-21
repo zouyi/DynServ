@@ -26,7 +26,7 @@ app.use(function (req, res, next) {
 
 app.get("/", function(req, resp){
     
-    resp.send("YOU ARE AWESOME");
+    resp.send("/moodcast/");
     
 })
 
