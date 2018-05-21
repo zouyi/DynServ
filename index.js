@@ -26,7 +26,7 @@ app.use(function (req, res, next) {
 
 app.get("/", function(req, resp){
     
-    resp.send("/moodcast/");
+    resp.sendFile("/moodcast/index.html");
     
 })
 
